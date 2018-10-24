@@ -31,13 +31,23 @@ strong {
 
 ul {
   padding: 0;
-
 }
 
 li {
   list-style: none;
+}
+
+.list-inline {
   display: inline-block;
   margin: 0px 20px;
+}
+
+.list-spaced {
+  margin: 50px 0px;
+}
+
+.list-centered {
+  align-items: center;
 }
 
 a {
@@ -47,6 +57,31 @@ a {
 
 a:hover {
   color: #FCA311;
+}
+
+.link-blue {
+  color: #495874;
+  font-weight: bold;
+}
+
+.link-blue:hover {
+  color: #CFDFEA;
+  font-weight: bold;
+}
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #97B9D1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#page-content {
+  margin-left: 100px;
 }
 
 .container {
